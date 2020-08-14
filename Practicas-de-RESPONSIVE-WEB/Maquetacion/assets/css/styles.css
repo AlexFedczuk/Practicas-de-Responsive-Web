@@ -336,3 +336,57 @@ textarea{
     margin-bottom: 5px;
     border: none;
 }
+
+/*Responsives*/
+
+@madia (max-width: 1164px){
+    .center{
+        width: 85%;
+    }
+}
+
+@madia (max-width: 1026px){
+    .center{
+        width: 95%;
+    }
+
+    #menu ul{
+        width: auto;
+    }
+}
+
+@madia (max-width: 918px){
+    #logo{
+        float: none;
+        width: 240px;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+
+    #menu,
+    #menu ul{
+        clear: both;
+        float: none;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        line-height: 43px;
+    }
+
+    #content{
+        float: none;
+        width: 100%;
+    }
+
+    #sidebar{
+        float: none;
+        width: 60px;
+        margin: 0px auto;
+        margin-bottom: 50px;
+    }
+
+    #slider h1{
+        padding-top: 115px;
+        font-size: 25px;
+    }
+}
