@@ -339,13 +339,13 @@ textarea{
 
 /*Responsives*/
 
-@madia (max-width: 1164px){
+@media(max-width: 1164px){
     .center{
         width: 85%;
     }
 }
 
-@madia (max-width: 1026px){
+@media(max-width: 1026px){
     .center{
         width: 95%;
     }
@@ -355,7 +355,7 @@ textarea{
     }
 }
 
-@madia (max-width: 918px){
+@media(max-width: 918px){
     #logo{
         float: none;
         width: 240px;
@@ -388,5 +388,47 @@ textarea{
     #slider h1{
         padding-top: 115px;
         font-size: 25px;
+    }
+
+    .mid-form{
+        width: 70%;
+    }
+}
+
+@media(max-width: 918px){
+    #header{
+        min-height: 130px;
+        overflow: hidden;
+    }
+
+    #menu,
+    #menu ul{
+        line-height: 50px;
+    }
+
+    #menu ul li{
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    #slider{
+        height: 170px;
+    }
+
+    #slider h1{
+        font-size: 19px;
+        padding-top: 30px;
+    }
+
+    #slider .btn-white{
+        margin-top: 20px;
+    }
+
+    #slider .slider-small{
+        height: 100px;
+    }
+
+    #slider .slider-small h1{
+        padding-top: 35px;
     }
 }
